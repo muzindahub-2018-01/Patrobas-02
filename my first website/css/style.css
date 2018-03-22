@@ -1,0 +1,163 @@
+/********************
+HEADING STYLES
+*********************/
+.main-header {
+    background-color: #20B2AA;
+    margin: -10px auto;
+    padding-bottom: 40px;
+    border-radius: 20%;
+    
+}
+.main-nav {
+	color: #FF4500;
+	display: inline-flex;
+	font-weight: bolder;
+	text-transform: uppercase;
+	padding-right: 5px;
+}
+.main-nav ul li a {
+	text-decoration: none;
+	background-color:  #e69500;
+	padding: 10px 20px;
+	border-radius: 30%;
+
+}
+ul {
+
+	display:flex;
+	text-decoration: none;
+}
+li  {
+	list-style: none;
+	margin-left: 20px;
+}
+.selected {
+	color: #0000;
+}
+h1 {
+	font-family: copperplate gothic;
+    background-image: linear gradient(	#FF8C00 30%,#7CFC00 30%,#FFA500 40%);
+    font-size: 60px;
+    text-shadow: 5px 8px 2px #FF8C00;
+    text-align: center;
+}
+/********************
+BODY STYLING
+*********************/
+body {
+	background-color: powderblue;
+	font-size: 20px;
+}
+p {
+	font-family: impact;
+	color:hsl(0, 50%, 0%);
+}
+li {
+	font-size: 17px;
+}
+h2 {
+   color: firebrick;
+   clear: both;
+}
+h3 {
+   color: firebrick;
+}
+.top-image {
+	border-radius: 80%;
+	border-top: 10px solid red;
+	padding: 5px 10px 0px;
+	border-bottom: 10px solid black;
+	width: 400px;
+	height: 200px;
+}
+.gadgets {
+	text-align: left;
+	list-style-type: none;
+	font-family: impact;
+	color: #FF8C00;
+	display: block; 
+}
+.accessories {
+   font-family: impact;
+   color: #FF8C00;	
+}
+footer {
+	background-color: firebrick;
+	text-align: center;
+	padding: 10px 0px;
+	font-size: 12px;
+	clear: both;
+}
+.first-col {
+   float: left;
+   width: 50%;
+}
+.second-col {
+   float: right;
+   width: 50%;
+}
+/********************
+PRODUCTS PAGE
+********************/
+div.iphone4 {
+    border: 1px solid #ccc;
+    float: right;
+    padding: 5px 5px 5px;
+  }
+div.ipad {
+	float: right;
+	display: inline-block;
+	padding: 5px 5px 5px;
+}
+div.iphone6 {
+	float: left;
+	display: inline-block;
+	padding: 5px 5px 5px;
+}
+div.samsung {
+	float: left;
+	display: inline-block;
+	padding: 5px 5px 5px;
+}
+.xycharger {
+	float: left;
+	display: inline-block;
+	padding: 5px 5px 5px;
+}
+.products {
+	background-color: #FFF8E7;
+}
+/**********************
+CONTACT PAGE
+**********************/
+.social-iconfb {
+	width: 35px; 
+	height: 35px;
+	margin: 7px;
+	clear: both;
+    border-radius: 100%;
+}
+.social-icontw {
+	width: 35px; 
+	height: 35px;
+	margin: 7px;
+	clear: both;
+    border-radius: 100%;
+}
+.social-icongm {
+	width: 35px; 
+	height: 35px;
+	margin: 7px;
+	clear: both;
+    border-radius: 100%;
+} 
+.fon-icon {
+	width: 50px; 
+	height: 50px;
+	margin: 7px;
+	clear: both;
+    border-radius: 100%;
+}
+.contacts a {
+text-decoration: none;
+}
